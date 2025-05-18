@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+ body {
+     font-family: 'Poppins', sans-serif;
+     scroll-behavior: smooth;
+ }
+
+ .hero-gradient {
+     background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+ }
+
+ .plan-card {
+     transition: all 0.3s ease;
+ }
+
+ .plan-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+ }
+
+ .popular-plan {
+     border: 2px solid #2563eb;
+     position: relative;
+ }
+
+ .popular-plan::after {
+     content: "MAIS POPULAR";
+     position: absolute;
+     top: -12px;
+     right: 20px;
+     background: #2563eb;
+     color: white;
+     padding: 2px 10px;
+     border-radius: 20px;
+     font-size: 12px;
+     font-weight: bold;
+ }
+
+ .whatsapp-float {
+     position: fixed;
+     bottom: 30px;
+     right: 30px;
+     z-index: 100;
+     animation: pulse 2s infinite;
+ }
+
+ @keyframes pulse {
+     0% {
+         box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+     }
+
+     70% {
+         box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+     }
+
+     100% {
+         box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+     }
+ }
+
+ .step-card {
+     transition: all 0.3s ease;
+ }
+
+ .step-card:hover {
+     transform: scale(1.03);
+ }

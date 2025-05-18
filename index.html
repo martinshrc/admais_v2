@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdMais | Sua empresa pode vender muito mais</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="bg-gray-50">
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5527997811981?text=Quero%20aumentar%20meus%20resultados!"
+            class="bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl shadow-lg hover:bg-green-600 transition-colors duration-300">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-blue-900">AdMais</div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-blue-900 font-medium">Sobre</a>
+                    <a href="#how" class="text-gray-700 hover:text-blue-900 font-medium">Como Funciona</a>
+                    <a href="#plans" class="text-gray-700 hover:text-blue-900 font-medium">Planos</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-900 font-medium">Contato</a>
+                    <a href="https://wa.me/5527997811981"
+                        class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors duration-300">
+                        Fale Agora
+                    </a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700 focus:outline-none" id="menu-btn">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="hidden md:hidden mt-4 pb-4" id="mobile-menu">
+                <a href="#about" class="block py-2 text-gray-700 hover:text-blue-900">Sobre</a>
+                <a href="#how" class="block py-2 text-gray-700 hover:text-blue-900">Como Funciona</a>
+                <a href="#plans" class="block py-2 text-gray-700 hover:text-blue-900">Planos</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-900">Contato</a>
+                <a href="https://wa.me/5527997811981"
+                    class="block bg-green-500 text-white px-4 py-2 rounded-lg mt-2 hover:bg-green-600 transition-colors duration-300">
+                    Fale Agora
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+                    Sua empresa pode vender muito mais. <br>Nós mostramos como.
+                </h1>
+                <p class="text-xl mb-8">
+                    Identificamos e resolvemos os problemas que travam suas vendas e impedem seu crescimento.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://wa.me/5527997811981?text=Quero%20começar%20meu%20teste%20gratis."
+                        class="bg-green-500 text-white font-bold px-8 py-3 rounded-lg text-center hover:bg-green-600 transition-colors duration-300">
+                        Comece agora com 7 dias grátis
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="Business Growth" class="rounded-lg shadow-2xl max-w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-white" id="about">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Sobre a AdMais</h2>
+                <div class="w-20 h-1 bg-blue-900 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        alt="AdMais Team" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Especialistas em destravar o potencial do seu
+                        negócio</h3>
+                    <p class="text-gray-600 mb-4">
+                        Solucionamos gargalos de marketing, atendimento, gestão financeira e processos que estão
+                        impedindo sua empresa de crescer.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        Oferecemos <span class="font-bold">7 dias de teste gratuito</span> da nossa mão de obra para
+                        você comprovar nossos resultados antes de qualquer compromisso.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Após o teste, nossos planos começam em <span class="font-bold">R$600/mês + verba de
+                            anúncios</span>, com opções completas a partir de R$800 (Meta Ads) ou R$1.600 (Meta + Google
+                        Ads), já incluindo a verba para campanhas.
+                    </p>
+                    <div class="bg-blue-50 rounded-lg p-6">
+                        <p class="text-gray-700">
+                            <i class="fas fa-check-circle text-blue-900 mr-2"></i>
+                            <span class="font-bold">100% da verba dos 7 dias</span> é usada nas campanhas. Você mantém o
+                            controle e
+                            recebe <span class="font-bold">relatórios claros</span> com resultados semanais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-20 bg-gray-50" id="how">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Como Funciona</h2>
+                <div class="w-20 h-1 bg-blue-900 mx-auto"></div>
+                <p class="text-xl text-gray-600 mt-6 max-w-2xl mx-auto">
+                    Em apenas 7 dias, você já verá os primeiros resultados
+                </p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6">
+                <!-- Day 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center w-full max-w-xs mx-auto">
+                    <div
+                        class="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                        1
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Diagnóstico</h3>
+                    <p class="text-gray-600 text-sm">
+                        Análise completa do seu negócio e checklist de melhorias
+                    </p>
+                </div>
+
+                <!-- Arrow -->
+                <div class="hidden md:flex items-center justify-center text-gray-400">
+                    <i class="fas fa-arrow-right text-2xl"></i>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center w-full max-w-xs mx-auto">
+                    <div
+                        class="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                        2
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Estratégia</h3>
+                    <p class="text-gray-600 text-sm">
+                        Plano de ação + melhorias no atendimento ao cliente
+                    </p>
+                </div>
+
+                <!-- Arrow -->
+                <div class="hidden md:flex items-center justify-center text-gray-400">
+                    <i class="fas fa-arrow-right text-2xl"></i>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center w-full max-w-xs mx-auto">
+                    <div
+                        class="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                        3
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Campanhas</h3>
+                    <p class="text-gray-600 text-sm">
+                        Criação e lançamento das campanhas de marketing
+                    </p>
+                </div>
+
+                <!-- Arrow -->
+                <div class="hidden md:flex items-center justify-center text-gray-400">
+                    <i class="fas fa-arrow-right text-2xl"></i>
+                </div>
+
+                <!-- Days 4-6 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center w-full max-w-xs mx-auto">
+                    <div
+                        class="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                        4-6
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Otimização</h3>
+                    <p class="text-gray-600 text-sm">
+                        Campanhas ativas com ajustes diários para melhor performance
+                    </p>
+                </div>
+
+                <!-- Arrow -->
+                <div class="hidden md:flex items-center justify-center text-gray-400">
+                    <i class="fas fa-arrow-right text-2xl"></i>
+                </div>
+
+                <!-- Day 7 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center w-full max-w-xs mx-auto">
+                    <div
+                        class="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                        7
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Resultados</h3>
+                    <p class="text-gray-600 text-sm">
+                        Apresentação dos resultados + proposta de continuidade
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="https://wa.me/5527997811981"
+                    class="inline-block bg-blue-900 text-white font-bold px-8 py-3 rounded-lg hover:bg-blue-800 transition-colors duration-300">
+                    Quero começar meu teste grátis
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="py-20 bg-white" id="plans">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nossos Planos</h2>
+                <div class="w-20 h-1 bg-blue-900 mx-auto"></div>
+                <p class="text-xl text-gray-600 mt-6 max-w-2xl mx-auto">
+                    Escolha o plano ideal para o estágio do seu negócio
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Basic Plan -->
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden plan-card">
+                    <div class="px-6 py-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Mensal</h3>
+                        <p class="text-gray-600 mb-6">Ideal para quem está começando</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-bold text-blue-900">R$600</span>
+                            <span class="text-gray-600">/mês</span>
+                        </div>
+                        <ul class="mb-8 space-y-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>7 dias de teste grátis</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Gestão de marketing</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Relatórios semanais</span>
+                            </li>
+                            <li class="flex items-center text-gray-400">
+                                <i class="fas fa-times text-red-400 mr-2"></i>
+                                <span>Verba de anúncios inclusa</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/5527997811981?text=Tenho%20interesse%20no%20plano%20Mensal%20de%20R%24600"
+                            class="block bg-gray-200 text-gray-800 font-bold py-3 px-6 rounded-lg text-center hover:bg-gray-300 transition-colors duration-300">
+                            Quero este plano
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Popular Plan -->
+                <div class="bg-white rounded-lg shadow-xl overflow-visible plan-card popular-plan">
+                    <div class="px-6 py-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Pacote Meta Ads</h3>
+                        <p class="text-gray-600 mb-6">Solução completa para Facebook/Instagram</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-bold text-blue-900">R$800</span>
+                            <span class="text-gray-600">/mês</span>
+                        </div>
+                        <ul class="mb-8 space-y-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>7 dias de teste grátis</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Gestão profissional</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Verba de anúncios inclusa</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Meta Ads (Facebook/Instagram)</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Relatórios detalhados</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/5527997811981?text=Tenho%20interesse%20no%20Pacote%20Meta%20Ads%20de%20R%24800"
+                            class="block bg-blue-900 text-white font-bold py-3 px-6 rounded-lg text-center hover:bg-blue-800 transition-colors duration-300">
+                            Quero este plano
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden plan-card">
+                    <div class="px-6 py-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Pacote Completo</h3>
+                        <p class="text-gray-600 mb-6">Meta + Google Ads para máximo alcance</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-bold text-blue-900">R$1.600</span>
+                            <span class="text-gray-600">/mês</span>
+                        </div>
+                        <ul class="mb-8 space-y-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>7 dias de teste grátis</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Gestão profissional</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Verba de anúncios inclusa</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Meta Ads (Facebook/Instagram)</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Google Ads inclusos</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Relatórios completos</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/5527997811981?text=Tenho%20interesse%20no%20Pacote%20Completo%20de%20R%241.100"
+                            class="block bg-gray-200 text-gray-800 font-bold py-3 px-6 rounded-lg text-center hover:bg-gray-300 transition-colors duration-300">
+                            Quero este plano
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">O que nossos clientes dizem</h2>
+                <div class="w-20 h-1 bg-blue-900 mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-lg p-8 shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        "Em 3 meses dobramos nosso faturamento com a AdMais. A gestão profissional das campanhas fez
+                        toda diferença para nosso e-commerce."
+                    </p>
+                    <div class="flex items-center">
+                        <div
+                            class="bg-blue-900 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold mr-4">
+                            LC
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Luiz Carvalho</h4>
+                            <p class="text-gray-500 text-sm">Moda Feminina</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-lg p-8 shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        "Finalmente encontrei uma equipe que entende pequenos negócios. Em 2 meses já tive retorno do
+                        investimento com as vendas aumentando semana após semana."
+                    </p>
+                    <div class="flex items-center">
+                        <div
+                            class="bg-blue-900 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold mr-4">
+                            AM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Ana Martins</h4>
+                            <p class="text-gray-500 text-sm">Cosméticos Naturais</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-lg p-8 shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        "Os 7 dias grátis me convenceram. Em 1 mês já estava com ROI positivo. A AdMais transformou
+                        completamente minha visão sobre marketing digital."
+                    </p>
+                    <div class="flex items-center">
+                        <div
+                            class="bg-blue-900 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold mr-4">
+                            RS
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Ricardo Silva</h4>
+                            <p class="text-gray-500 text-sm">Serviços Automotivos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-900 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Pronto para transformar suas vendas?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Comece seu teste grátis de 7 dias e comprove os resultados antes de qualquer compromisso.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="https://wa.me/5527997811981"
+                    class="bg-green-500 text-white font-bold px-8 py-3 rounded-lg hover:bg-green-600 transition-colors duration-300">
+                    Comece agora
+                </a>
+                <a href="#plans"
+                    class="border-2 border-white text-white font-bold px-8 py-3 rounded-lg hover:bg-white hover:text-blue-900 transition-colors duration-300">
+                    Ver planos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12" id="contact">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">AdMais</h3>
+                    <p class="text-gray-400">
+                        Marketing & Desenvolvimento para pequenos e médios negócios.
+                    </p>
+                    <p class="text-gray-400 mt-4">
+                        "Seu negócio, no caminho certo para crescer."
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contato</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2 text-gray-400"></i>
+                            <a href="tel:+5527997811981" class="text-gray-400 hover:text-white">(27) 99781-1981</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-2 text-gray-400"></i>
+                            <a href="https://wa.me/5527997811981" class="text-gray-400 hover:text-white">WhatsApp</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-instagram mr-2 text-gray-400"></i>
+                            <a href="https://www.instagram.com/admais_ofc/"
+                                class="text-gray-400 hover:text-white">@admais_ofc</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white">Sobre</a></li>
+                        <li><a href="#how" class="text-gray-400 hover:text-white">Como Funciona</a></li>
+                        <li><a href="#plans" class="text-gray-400 hover:text-white">Planos</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 AdMais. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
